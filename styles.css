@@ -72,9 +72,6 @@ a:hover {
 .flex-head > h1 {
     font-weight: 300;
 }
-.head-name {
-    /*width: 100%;*/
-}
 header {
     background: url('images/File_000.jpg') no-repeat top center;
     background-size: cover;
