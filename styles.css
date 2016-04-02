@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
+    font-weight: 300;
     color: #222;
     background: #f7f5f0;
     width: 100%;
@@ -45,7 +46,7 @@ a:hover {
 }
 
 .nav .name {
-    display: block;
+    /*display: block;*/
     margin-right: auto;
     color: white;
 }
@@ -63,10 +64,18 @@ a:hover {
 }
 .flex-head {
     display: flex;
-    flex-direction: column;
+    align-items: flex-end;
+    height: 50vh;
+    width: 80%;
+    margin: 0 auto;
+}
+.flex-head > h1 {
+    font-weight: 300;
+}
+.head-name {
+    /*width: 100%;*/
 }
 header {
-    align-self: flex-end;
     background: url('images/File_000.jpg') no-repeat top center;
     background-size: cover;
     background-position: center;
@@ -94,11 +103,6 @@ header .profile-image:hover {
 .tag {
     color: #ffffff;
     padding: 10px;
-}
-
-.location {
-    background-color: #222;
-    color: yellow;
 }
 
 .card {
