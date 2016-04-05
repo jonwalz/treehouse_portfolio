@@ -66,6 +66,7 @@ a:hover {
 }
 .flex-head {
     width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .flex-head > h1 {
