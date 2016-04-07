@@ -49,17 +49,27 @@ a:hover {
 }
 
 .nav .name {
-    /*display: block;*/
     margin-right: auto;
+    align-items: center;
     color: white;
+}
+.nav .name img {
+    max-width: 2rem;
+}
+#sig {
+    float: left;
 }
 
 .nav li {
+    align-content: center;
     padding: 5px 10px 10px 10px;
 }
-
+.nav li a {
+    align-content: center;
+}
 .nav a {
     transition: all .5s;
+    align-items: center;
 }
 
 .nav a:hover {
@@ -69,6 +79,13 @@ a:hover {
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
+}
+.flex-head-sky {
+    max-width: 80%;
+    margin: 0 auto;
+}
+.flex-head-sky div h1 {
+    text-align: center;
 }
 
 .flex-head > h1 {
@@ -134,6 +151,7 @@ header .profile-image:hover {
 }
 .card > img {
     width: 100%;
+    max-width: 500px;
 }
 .card > p {
     text-align: center;
