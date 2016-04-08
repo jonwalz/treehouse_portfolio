@@ -40,12 +40,13 @@ a:hover {
 }
 
 .nav {
+    width: 80%;
     display: flex;
-    justify-content: space-around;
-    font-weight: 600;
-    list-style-type: none;
+    justify-content: space-between;
+    font-weight: 300;
     margin: 0 auto;
     padding: 0;
+    list-style-type: none;
 }
 
 .nav .name {
@@ -56,22 +57,22 @@ a:hover {
 .nav .name img {
     max-width: 2rem;
 }
-#sig {
-    float: left;
+.nav ul {
+    list-style-type: none;
+    width: 180px;
 }
-
-.nav li {
-    align-content: center;
-    padding: 5px 10px 10px 10px;
+.nav-links {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
 }
-.nav li a {
-    align-content: center;
+.nav-links ul li {
+    padding-right: 4px;
 }
 .nav a {
     transition: all .5s;
     align-items: center;
 }
-
 .nav a:hover {
     color: white
 }
@@ -104,7 +105,8 @@ header {
     background: url('images/skyBack.jpg') no-repeat top center;
     background-size: cover;
     background-position: center;
-    min-height: 50vh;
+    min-height: 300px;
+    height: 50vh;
 }
 header {
     line-height: 1.5;
@@ -127,6 +129,7 @@ header .profile-image:hover {
     padding: 10px;
 }
 .location {
+    text-align: center;
     font-size: 1.2em;
     border-bottom: 1px solid white;
 }
@@ -149,7 +152,7 @@ header .profile-image:hover {
     transition: all .5s;
     width: 100%;
 }
-.card > img {
+.card > a > img {
     width: 100%;
     max-width: 500px;
 }
@@ -272,7 +275,9 @@ a.social:hover {
         max-width: 1200px;
         padding: 0 30px;
     }
-
+    /*.nav-links ul {*/
+        /*display: block;*/
+    /*}*/
     main {
         /*padding-top: 20px;*/
     }
@@ -286,6 +291,10 @@ a.social:hover {
         max-width: 1200px;
         margin: 40px auto;
     }
+
+}
+
+@media screen and (max-width: 720px) {
 
 }
 
