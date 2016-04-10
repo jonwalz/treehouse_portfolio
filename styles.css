@@ -295,7 +295,7 @@ a.social:hover {
 
 @media screen and (max-width: 720px) {
     .flex-head .head-name {
-        align-items: centerw;
+        align-items: center;
 
     }
 }
