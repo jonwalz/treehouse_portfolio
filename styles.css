@@ -36,6 +36,7 @@ a:hover {
     position: fixed;
     text-align: center;
     transition: background-color .6s;
+    top: 0;
 }
 
 .nav {
